@@ -8,6 +8,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+/**
+ * Il programma serve decifrare una parola
+ */
 
 public class Cesare extends Application{
 	
