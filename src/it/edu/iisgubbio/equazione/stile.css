@@ -1,0 +1,21 @@
+.text-field{
+	-fx-background-color:yellow;
+	-fx-border-color: purple;
+}
+
+.parametri{
+	-fx-text-fill:blue;
+}
+
+.incognite{
+	-fx-text-fill:red;
+}
+
+#sfondo{
+	-fx-background-color:pink;
+}
+
+.button{
+	-fx-background-color: orange;
+	-fx-border-color: purple;
+}

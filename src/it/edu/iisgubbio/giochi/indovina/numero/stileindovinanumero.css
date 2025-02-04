@@ -1,0 +1,18 @@
+.text-field{
+	-fx-background-color: #ffd7de;
+	-fx-border-color: pink;
+}
+
+#sfondo{
+	-fx-background-color:#ffe8ec;
+}
+
+.button{
+	-fx-background-color: #ffd7de;
+	-fx-border-color: pink;
+	-fx-font-style:oblique;
+}
+.label{
+	-fx-font-style:italic;
+}
+
