@@ -45,7 +45,6 @@ public class TempoBisestile extends Application {
 		anno=Integer.parseInt(tfAnno.getText());
 		risultato=Integer.parseInt(tfRisultato.getText());
 		
-	if(anno==);
 
 	}
 }
