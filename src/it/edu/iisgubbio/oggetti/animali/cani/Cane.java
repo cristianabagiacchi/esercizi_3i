@@ -60,28 +60,35 @@ public class Cane {
 	}
 	
 	
-	public String toString() {
+	/*public String toString() {
 		if(nomeProprietario== "Francesco Giornelli" || nomeProprietario== "francesco giornelli" || nomeProprietario== "Francesco giornelli" || nomeProprietario== "francesco Giornelli" ) {
 			return nome +", "+ razza +", "+ nomeProprietario  +", "+ anno  +", "+ grammiCibo;
 		}
 		
 		return nome +", "+ razza +", "+ nomeProprietario+" non è corretto"  +", "+ anno  +", "+ grammiCibo;
 	}
+	*/
 	
+	/**
+	 *  verifica il nome del proprietario
+	 * @param nome il nome del proprietario da controllare
+	 * @return true quando il nome inserito è uguale a quello del proprietario
+	 */
 	public boolean verificaProprietario(String nome) {  /* primo metodo*/
 		if(nomeProprietario.equals(nome)) {
 			return true;
 		}else {
 			return false;
 		}
-		/*nomeProprietario.equals(nome);  stessa cosa pi corta 
+		/*nomeProprietario.equals(nome);  stessa cosa MA pUi corta 
 		 * 
 		 */
 	}
 	
 	
-	/*implementare il metono che dato un anno, restituisce l'eta del cane
-	 * 
+	/**metono che dato un anno, restituisce l'eta del cane
+	 * @param anno l'anno a cui è riferita l'età
+	 * @return calcola l'età del cane nell'anno specificato
 	 */
 	
 	public int eta (int anno) {

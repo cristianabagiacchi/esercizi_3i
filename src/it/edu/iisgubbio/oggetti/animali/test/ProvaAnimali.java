@@ -12,9 +12,17 @@ public class ProvaAnimali {
 		Cuccia difranco= new Cuccia();
 		
 		
-		Cane franco= new Cane ("franco", "pastore tedesco", 9, 5.6, "Francesco Giornelli");
-		System.out.println(franco.toString());
+		Cane franco= new Cane ("franco", "pastore tedesco", 2017, 5.6, "Francesco Giornelli");
+		System.out.println(franco);
 		System.out.println(difranco);
+		System.out.println(franco.eta(2025));
+		
+		if(franco.verificaProprietario("Francesco Giornelli")) {
+			System.out.println("è il proprietario");
+		}else {
+			System.out.println("non è il proprietario");
+		}
+		
 		
 
 	}
