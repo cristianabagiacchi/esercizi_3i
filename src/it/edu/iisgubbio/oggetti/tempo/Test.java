@@ -6,8 +6,25 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Orario fineLezione=new Orario(13,35,0);
+		Orario fineLezione=new Orario(17,59,00);
 		System.out.println(fineLezione);
+		
+		fineLezione.aggiungiOre(0);
+		System.out.println(fineLezione);
+		
+		fineLezione.aggiungiMinuti(8);
+		System.out.println(fineLezione);
+		
+		fineLezione.aggiungiSecondi(30);
+		System.out.println(fineLezione);
+		
+		fineLezione.aggiungiSecondi(270);
+		System.out.println(fineLezione);
+		
+		Orario inPiu=new Orario (1,50,30);
+		fineLezione.aggiungiOrario(inPiu);
+		System.out.println(fineLezione);
+		
 		
 	}
 
