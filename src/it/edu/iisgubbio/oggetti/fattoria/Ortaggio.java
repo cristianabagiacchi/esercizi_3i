@@ -8,10 +8,17 @@ public class Ortaggio extends Prodotto {
 	protected double prezzoKG;
 	protected String nome;
 	
-	public Ortaggio(String nome, double prezzoAlChilo, boolean biologico, double prezzoKG) {
+
+
+	public Ortaggio(String nome, double prezzoAlChilo, boolean biologico, double prezzoKG, String nome2) {
 		super(nome, prezzoAlChilo);
 		this.biologico = biologico;
+		this.prezzoKG = prezzoKG;
+		nome = nome2;
 	}
+
+
+	
 
 
 	public boolean isBiologico() {
@@ -19,9 +26,15 @@ public class Ortaggio extends Prodotto {
 	}
 
 
-	public void setBiologico(boolean x) {
-		this.biologico = x;
+
+
+
+	public void setBiologico(boolean biologico) {
+		this.biologico = biologico;
 	}
+
+
+
 
 
 	public double getPrezzoKG() {
@@ -29,9 +42,31 @@ public class Ortaggio extends Prodotto {
 	}
 
 
+
+
+
 	public void setPrezzoKG(double prezzoKG) {
 		this.prezzoKG = prezzoKG;
 	}
+
+
+
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+
 
 
 	@Override
