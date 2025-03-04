@@ -20,19 +20,27 @@ public class Formaggio extends Prodotto {
 	@Override
 	public String toString() {
 		
-		String descrizione="formaggio=" + nome +"prezzo al chilo="+prezzoAlChilo;
+		String descrizione=nome +" || prezzo al chilo= "+prezzoAlChilo;
 		if(dop) {
-			descrizione=descrizione+"dop";
+			descrizione=descrizione+" [dop] ";
 		}else {
-			descrizione=descrizione+"no dop";
+			descrizione=descrizione+" [no dop] ";
 		}
 		if(stagionatura>0) {
-			descrizione=descrizione + "stagionatura"+stagionatura+"mesi";
+			descrizione=descrizione + " [stagionatura "+stagionatura+" mesi] ";
 		}
 		
 	return descrizione;
 	}
-	
+
+	public void setStagionatura(int stagionatura) {
+		this.stagionatura = stagionatura;
+	}
+
+	public void setDop(boolean dop) {
+		this.dop = dop;
+	}
+
 		
 	
 }

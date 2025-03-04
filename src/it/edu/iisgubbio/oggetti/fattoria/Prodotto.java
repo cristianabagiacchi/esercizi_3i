@@ -18,7 +18,7 @@ public class Prodotto{
 	
 	@Override
 	public String toString() {
-		return "Prodotto [nome: " + nome + "||prezzo al chilo: " +prezzoAlChilo;
+		return "nome= " + nome + " || prezzo al chilo: " +prezzoAlChilo;
 	}
 	
 	public double calcolaPrezzo(double peso) {
